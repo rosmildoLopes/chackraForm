@@ -22,7 +22,7 @@ const schema = yup.object({
   lastName: yup.string().required(),
   email: yup.string().required(),
   address: yup.string().required(),
-  phone: yup.string().required(),
+  phone: yup.number().required(),
   description: yup.string().required(),
 });
 
