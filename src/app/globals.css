@@ -2,3 +2,116 @@
 @tailwind components;
 @tailwind utilities;
 
+
+:root {
+  --black-gradient: linear-gradient(
+    144.39deg,
+    #ffffff -278.56%,
+    #6d6d6d -78.47%,
+    #11101d 91.61%
+  );
+  --card-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
+
+
+  background: #1D1B22
+}
+
+.bg-pink-gradient {
+  background: linear-gradient(
+    157.81deg,
+    #def9fa -43.27%,
+    #c46bbf -21.24%,
+    #f35fe7 12.19%,
+    #b93ad3 29.82%,
+    #9b349e 51.94%,
+    #4b0241 90.29%
+  );
+}
+
+.text-gradient {
+  background: radial-gradient(
+    64.18% 64.18% at 71.16% 35.69%,
+    #def9fa 0.89%,
+    #bef3f5 17.23%,
+    #9dedf0 42.04%,
+    #7de7eb 55.12%,
+    #5ce1e6 71.54%,
+    #33bbcf 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.bg-green-gradient {
+  background: linear-gradient(
+    180deg,
+    #8EFE00 100%,
+    #1B81C4 100%,
+  );
+}
+
+.bg-violet-gradient {
+  background: linear-gradient(
+    180deg,
+    #FF0098 100%,
+    #7039C7 100%,
+  );
+}
+
+.bg-blue-gradient {
+  background: linear-gradient(
+    157.81deg,
+    #def9fa -43.27%,
+    #bef3f5 -21.24%,
+    #9dedf0 12.19%,
+    #7de7eb 29.82%,
+    #5ce1e6 51.94%,
+    #33bbcf 90.29%
+  );
+}
+.blue-light-gradient {
+  background: linear-gradient(180deg, rgba(226, 220, 245, 0) 0%, #4198e9 100%);
+  filter: blur(123px);
+}
+
+.bg-pink-gradient {
+  background-color: #0093e9;
+  background-image: linear-gradient(45deg, #4ac2e7 0%, #9c21a5 50%);
+}
+
+.bg-black-gradient {
+  background: linear-gradient(
+    -168.39deg,
+    #ffffff -278.56%,
+    #6d6d6d -78.47%,
+    #11101d 91.61%
+  );
+}
+
+.bg-gray-gradient {
+  background: linear-gradient(
+    153.47deg,
+    rgba(255, 255, 255, 0) -341.94%,
+    #14101d 95.11%
+  );
+}
+
+.pink__gradient {
+  background: linear-gradient(180deg, rgba(226, 220, 245, 0) 0%, #824ca7 100%);
+  filter: blur(150px);
+}
+
+.white__gradient {
+  background: rgba(255, 255, 255, 0.6);
+  filter: blur(750px);
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+.box-shadow {
+  box-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
+}
